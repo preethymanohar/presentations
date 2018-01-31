@@ -5,17 +5,24 @@
 		<meta charset="utf-8">
 
 		<title>Jenkins Shared Libraries</title>
-		<meta name="description" content="Shared Libraries - Jenkins ">
+		<meta name="description" content="My Slides">
 		<meta name="author" content="Preethy Manohar">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<style>
+		.slides .header{
+  position:absolute;
+  top: -50%;
+  left: -50%;
+}
 
+		</style>
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -35,55 +42,23 @@
 
  			<div class="slides">
 				<section>
-					<h2>Jenkins 2.x</h2>
-					<h3>Shared Libraries & Multibranch Pipelines</h3>
-					<p>
-					<small><a href="mailto:preethymanohar@gmail.com"> Preethy Manohar</a> </small>
-					</p>
-					<h4>Autobots</h4>
-				</section>
-				<section>
-					<section>
-						<h3> What is Shared Libraries ? </h2>
-						<p style="text-align: left;"> Shared library of Pipeline scripts. </br>
-						Write code having common patterns once and  store them in SCM repository.
+					<h4>Presentation Topics</h4>
+					<p style="text-align: left;">
 
-						</p>
 
-					</section>
-				</section>
-				<section>
-					<section>
-						<h3> Why Shared Libraries ? </h2>
-						<p style="text-align: left;"> Common patterns are likely to emerge in integration and delivery pipelines when:</p>
-						<ul>
-							<span class="fragment fade-up"><li>building mulitple microservices</li></span>
-							<span class="fragment fade-up"><li>applications are built on similar technology stack </li></span>
-							<span class="fragment fade-up"><li>deploy applications in a standardized way</li></span>
-						</ul>
-					</section>
-				</section>
-				<!-- Nested vertical slides -->
-				<section>
-					<section>
-						<h2>Benefits </h2>
-						<ul>
-						 <span class="fragment fade-up"><li> Centralize Jenkins Pipeline configuration. </li></span>
-						 <span class="fragment fade-up"><li> Avoid copy & paste same code from one Jenkinsfile to another.</li></span>
-						 <span class="fragment fade-up"><li> Reuse the pipeline code. </li></span>
-						 <span class="fragment fade-up"><li> Change build process without committing to all repos.</li></span>
-						 <span class="fragment fade-up"><li> Shared libraries keep Jenkinsfile small and simple.</li></span>
-						 <span class="fragment fade-up"><li> Reduce redundancy and keep code DRY (Don't Repeat Yourself). </li></span>
-						 <span class="fragment fade-up"><li> Less maintenance</li></span>
+					<ol>
+						<li><a href="https://preethymanohar.github.io/presentations/jenkins2">Jenkins 2.X</a></li>
+						<li><a href="https://preethymanohar.github.io/presentations/strategicplan">Strategic Planning</a></li>
+					</ol>
+				</p>
 
-						 </ul>
-					</section>
-				</section>
-				<section>
-					Questions ?
-				</section>
+				<p style="position:absolute;left:80%;bottom:-98%;">
+				<small><a href="mailto:pmanohar.autoresponse@@gmail.com"> Preethy Manohar</a> </small>
+				</p>
 
+ 				 </section>
   		</div>
+
 	</div>
 
 		<script src="lib/js/head.min.js"></script>
